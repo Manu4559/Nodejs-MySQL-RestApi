@@ -3,15 +3,15 @@ import { getEmployees, createEmployees, updateEmployees, deleteEmployees, getEmp
 
 const router = Router()
 
-router.get('/emplooyes', getEmployees)
-router.get('/emplooyes/:id', getEmployee)
+router.get('/employees', getEmployees)
+router.get('/employees/:id', getEmployee)
 
 
-router.post('/emplooyes', createEmployees)
+router.post('/employees', createEmployees)
 
-router.patch('/emplooyes/:id', updateEmployees)
+router.patch('/employees/:id', updateEmployees)
 
-router.delete('/emplooyes/:id', deleteEmployees)
+router.delete('/employees/:id', deleteEmployees)
 
 
 export default router

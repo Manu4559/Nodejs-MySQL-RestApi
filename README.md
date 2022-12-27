@@ -1,0 +1,11 @@
+# Nodejs-MySQL-RestApi
+  dependencies: {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+Implementación con: Railway
+  
